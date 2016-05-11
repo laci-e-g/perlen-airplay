@@ -2,22 +2,24 @@
 
 raspi B+ airplay
 
-# - Shairport
+## -Shairport
 
-$ diskutil list
+> We loved with a love that was more than love
 
-$ diskutil unmountDisk /dev/disk2
+> diskutil list
 
-$ sudo dd if=/Users/<user>/Downloads/raspbian-jessie-lite.img of=/dev/disk2 bs=1m
+> diskutil unmountDisk /dev/disk2
 
-# - ssh
+> sudo dd if=/Users/<user>/Downloads/raspbian-jessie-lite.img of=/dev/disk2 bs=1m
 
-ssh pi@<ip>
+## - Login
+
+user : pi
 
 Passwort :   raspberry
 
 # - Install
 
-sudo su -
+> sudo su -
 
-$apt-get update apt-get upgrade
+> $apt-get update apt-get upgrade
