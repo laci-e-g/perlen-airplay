@@ -123,6 +123,8 @@ pcm.!default {
 
 Edit start Modul ***snd-usb-audio***
 
+`nano /etc/modules`
+
 ```ruby
 # /etc/modules: kernel modules to load at boot time.
 #
